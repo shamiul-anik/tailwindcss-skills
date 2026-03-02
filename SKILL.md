@@ -15,7 +15,11 @@ description: Comprehensive Tailwind CSS v4.2 reference for generating modern, ut
 ### Vite (Recommended — fastest)
 
 ```bash
+# npm
 npm i tailwindcss @tailwindcss/vite
+
+# pnpm
+pnpm add tailwindcss @tailwindcss/vite
 ```
 
 ```js
@@ -27,7 +31,11 @@ export default { plugins: [tailwindcss()] };
 ### PostCSS
 
 ```bash
+# npm
 npm i tailwindcss @tailwindcss/postcss
+
+# pnpm
+pnpm add tailwindcss @tailwindcss/postcss
 ```
 
 ```js
@@ -38,7 +46,11 @@ export default { plugins: ["@tailwindcss/postcss"] };
 ### Webpack (New in v4.2)
 
 ```bash
+# npm
 npm i tailwindcss @tailwindcss/webpack
+
+# pnpm
+pnpm add tailwindcss @tailwindcss/webpack
 ```
 
 ```js
@@ -50,7 +62,11 @@ module.exports = { plugins: [new tailwindcss()] };
 ### Tailwind CLI
 
 ```bash
+# npm
 npx @tailwindcss/cli -i app.css -o dist/app.css --watch
+
+# pnpm
+pnpm dlx @tailwindcss/cli -i app.css -o dist/app.css --watch
 ```
 
 ### Play CDN (prototyping only)
