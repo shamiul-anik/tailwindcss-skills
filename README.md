@@ -18,25 +18,25 @@ The file is organized into **19 sections** covering everything an LLM needs:
 
 | Section | Topic                                                                                                                  |
 | ------- | ---------------------------------------------------------------------------------------------------------------------- |
-| §1      | **Installation** — Vite, PostCSS, Webpack (v4.2), CLI, CDN (npm & pnpm)                                                |
-| §2      | **CSS-First Configuration** — `@theme` tokens, namespaces, extending/overriding                                        |
-| §3      | **Dark Mode** — Auto, class-based, data-attribute, 3-way toggle with JS                                                |
-| §4      | **Responsive Design** — Breakpoints, `max-*` ranges, Container Queries                                                 |
-| §5      | **Gradients** — `bg-linear-*` (renamed), radial, conic, interpolation modifiers                                        |
-| §6      | **Colors** — OKLCH color space, all palettes (incl. v4.2: Mauve, Olive, Mist, Taupe)                                   |
-| §7      | **Dynamic Utility Values** — Arbitrary values, properties, and variants                                                |
-| §8      | **Shadows** — Stackable shadows, inset shadows, rings                                                                  |
-| §9      | **3D Transforms** — Perspective, rotate-x/y/z, translate-z, backface                                                   |
-| §10     | **Animations & Transitions** — Custom `@keyframes` in `@theme`, `starting:` variant                                    |
-| §11     | **States & Variants** — Pseudo-classes, group/peer, `in-*`, descendant `**:`                                           |
-| §12     | **Text Shadows & Masks** — `text-shadow-*`, `mask-*`, colored drop shadows (v4.1)                                      |
-| §13     | **Logical Properties** — `pbs-*`, `mbe-*`, `inline-s-*`, `font-features-*` (v4.2)                                      |
-| §14     | **Custom Utilities & Variants** — `@utility`, `@custom-variant`, `@layer`, `@variant`                                  |
-| §15     | **Source Detection** — `@source`, `@source not`, `@source inline()`                                                    |
-| §16     | **Official Plugins** — `@plugin` for Typography and Forms                                                              |
-| §17     | **Common Utility Quick Reference** — Layout, spacing, sizing, typography, borders, effects, positioning, interactivity |
-| §18     | **Migration Pitfalls (v3 → v4)** — Critical "DO NOT / USE THIS" table                                                  |
-| §19     | **Design Best Practices** — Mobile-first, OKLCH gradients, container queries, dark mode                                |
+| 1       | **Installation** — Vite, PostCSS, Webpack (v4.2), CLI, CDN (npm & pnpm)                                                |
+| 2       | **CSS-First Configuration** — `@theme` tokens, namespaces, extending/overriding                                        |
+| 3       | **Dark Mode** — Auto, class-based, data-attribute, 3-way toggle with JS                                                |
+| 4       | **Responsive Design** — Breakpoints, `max-*` ranges, Container Queries                                                 |
+| 5       | **Gradients** — `bg-linear-*` (renamed), radial, conic, interpolation modifiers                                        |
+| 6       | **Colors** — OKLCH color space, all palettes (incl. v4.2: Mauve, Olive, Mist, Taupe)                                   |
+| 7       | **Dynamic Utility Values** — Arbitrary values, properties, and variants                                                |
+| 8       | **Shadows** — Stackable shadows, inset shadows, rings                                                                  |
+| 9       | **3D Transforms** — Perspective, rotate-x/y/z, translate-z, backface                                                   |
+| 10      | **Animations & Transitions** — Custom `@keyframes` in `@theme`, `starting:` variant                                    |
+| 11      | **States & Variants** — Pseudo-classes, group/peer, `in-*`, descendant `**:`                                           |
+| 12      | **Text Shadows & Masks** — `text-shadow-*`, `mask-*`, colored drop shadows (v4.1)                                      |
+| 13      | **Logical Properties** — `pbs-*`, `mbe-*`, `inline-s-*`, `font-features-*` (v4.2)                                      |
+| 14      | **Custom Utilities & Variants** — `@utility`, `@custom-variant`, `@layer`, `@variant`                                  |
+| 15      | **Source Detection** — `@source`, `@source not`, `@source inline()`                                                    |
+| 16      | **Official Plugins** — `@plugin` for Typography and Forms                                                              |
+| 17      | **Common Utility Quick Reference** — Layout, spacing, sizing, typography, borders, effects, positioning, interactivity |
+| 18      | **Migration Pitfalls (v3 → v4)** — Critical "DO NOT / USE THIS" table                                                  |
+| 19      | **Design Best Practices** — Mobile-first, OKLCH gradients, container queries, dark mode                                |
 
 ## 🛠 How to Use
 
