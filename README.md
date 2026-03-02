@@ -40,23 +40,93 @@ The file is organized into **19 sections** covering everything an LLM needs:
 
 ## 🛠 How to Use
 
-### Option 1: Context Injection (Claude / Gemini / ChatGPT)
+### VS Code + GitHub Copilot
 
-Copy the content of `SKILL.md` and paste it at the beginning of your chat session, or upload it as a project knowledge file.
+Copy `SKILL.md` content into your project's Copilot instructions file:
 
-> "Use the attached SKILL.md for all Tailwind CSS related suggestions. Follow v4.2 patterns exclusively."
+```
+your-project/
+├── .github/
+│   └── copilot-instructions.md   ← Paste SKILL.md content here
+```
 
-### Option 2: GitHub Copilot / Cursor / Windsurf
+Alternatively, create path-specific instructions:
 
-Place the `SKILL.md` file in your project root or reference it in your editor's AI configuration:
+```
+your-project/
+├── .github/
+│   └── instructions/
+│       └── tailwind.instructions.md   ← Paste SKILL.md content here
+```
 
-- **Copilot**: Add to `.github/copilot-instructions.md`
-- **Cursor**: Add as a "Doc" in project settings
-- **Windsurf**: Include in your workspace rules
+### Cursor
 
-### Option 3: Antigravity / Cline / Other Agents
+Add the file as a project rule or doc:
 
-Place the `SKILL.md` in a `.agents/skills/` or similar directory — agents that follow the Skills protocol will automatically pick it up.
+```
+your-project/
+├── .cursor/
+│   └── rules/
+│       └── tailwindcss.mdc   ← Paste SKILL.md content here
+```
+
+Or go to **Cursor Settings → Docs → Add Doc** and point to this repository's `SKILL.md`.
+
+### Windsurf
+
+Place instructions in the Windsurf rules file:
+
+```
+your-project/
+├── .windsurfrules   ← Paste SKILL.md content here
+```
+
+### Antigravity (Google)
+
+Place the `SKILL.md` inside a skills directory in your project:
+
+```
+your-project/
+├── .agents/
+│   └── skills/
+│       └── tailwindcss/
+│           └── SKILL.md   ← Place here
+```
+
+Antigravity automatically discovers skills from `.agents/skills/` directories.
+
+### WebStorm / JetBrains IDEs
+
+Go to **Settings → Tools → AI Assistant → Project Settings → Path to guideline** and point it to `SKILL.md` in your project root:
+
+```
+your-project/
+├── SKILL.md   ← Place here, then reference in settings
+```
+
+### Claude Code
+
+Place the file as a project-level instruction:
+
+```
+your-project/
+├── CLAUDE.md   ← Paste SKILL.md content here
+```
+
+Or inside the rules directory:
+
+```
+your-project/
+├── .claude/
+│   └── rules/
+│       └── tailwindcss.md   ← Paste SKILL.md content here
+```
+
+### Gemini / ChatGPT / Other Web-based LLMs
+
+Upload `SKILL.md` as a file attachment at the start of your session, or paste its content with:
+
+> "Use the following as your Tailwind CSS reference. Follow v4.2 patterns exclusively."
 
 ## 🆕 v4.2 Highlights (February 2026)
 
